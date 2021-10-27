@@ -1,0 +1,12 @@
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\bin\Debug\BezierCurve.exe.config
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\bin\Debug\BezierCurve.exe
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\bin\Debug\BezierCurve.pdb
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\bin\Debug\Control.Draggable.dll
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\obj\Debug\BezierCurve.csproj.AssemblyReference.cache
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\obj\Debug\BezierCurve.Properties.Resources.resources
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\obj\Debug\BezierCurve.csproj.GenerateResource.cache
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\obj\Debug\BezierCurve.csproj.CoreCompileInputs.cache
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\obj\Debug\BezierCurve.csproj.CopyComplete
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\obj\Debug\BezierCurve.exe
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\obj\Debug\BezierCurve.pdb
+C:\Users\osipy\source\repos\LaboratoryWork5\BezierCurve\obj\Debug\BezierCurve.Form1.resources
