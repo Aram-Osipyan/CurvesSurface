@@ -1,10 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using System.Windows.Forms;
 
@@ -16,23 +11,28 @@ namespace BezierCurve
         private CompositeBesier _curve;
         private Graphics _graphics;
         private Pen _curvePen;
+        private Pen _linePen;
         public Form1()
         {
             InitializeComponent();
             _buttons = new List<Button>();
             _curve = new CompositeBesier();
             _graphics = CreateGraphics();
-            _curvePen = Pens.Black;
-            ControlExtension.Draggable(Point, true);
-            ControlExtension.Draggable(Point2, true);
+            _curvePen = new Pen(Color.Black, 2);
+            _linePen = new Pen(Color.Red, 1);
         }
 
         private void Form1_MouseClick(object sender, MouseEventArgs e)
         {
+            
             //nbtn.Text = Point.Text;
-            _curve.Add(e.X, e.Y,Point,Point2);
+            _curve.Add(e.X, e.Y,Point,Point2,(o,ev)=> { 
+                _graphics.Clear(Color.White);
+                _curve.Draw(_graphics,_curvePen,_linePen);
+            });
             _graphics.Clear(Color.White);
-            _curve.Draw(_graphics,_curvePen);
+            _curve.Draw(_graphics,_curvePen,_linePen);
         }
+
     }
 }

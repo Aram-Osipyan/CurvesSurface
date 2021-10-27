@@ -30,31 +30,24 @@ namespace BezierCurve
         private void InitializeComponent()
         {
             this.Point = new System.Windows.Forms.Button();
-            this.AddPointbutton = new System.Windows.Forms.Button();
             this.Point2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Point
             // 
             this.Point.Location = new System.Drawing.Point(2, 2);
+            this.Point.Margin = new System.Windows.Forms.Padding(0);
             this.Point.Name = "Point";
             this.Point.Size = new System.Drawing.Size(24, 23);
             this.Point.TabIndex = 0;
             this.Point.UseVisualStyleBackColor = true;
             // 
-            // AddPointbutton
-            // 
-            this.AddPointbutton.Location = new System.Drawing.Point(2, 31);
-            this.AddPointbutton.Name = "AddPointbutton";
-            this.AddPointbutton.Size = new System.Drawing.Size(75, 23);
-            this.AddPointbutton.TabIndex = 1;
-            this.AddPointbutton.Text = "AddPoint";
-            this.AddPointbutton.UseVisualStyleBackColor = true;
-            // 
             // Point2
             // 
             this.Point2.BackColor = System.Drawing.Color.LightCoral;
-            this.Point2.Location = new System.Drawing.Point(11, 69);
+            this.Point2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Point2.Location = new System.Drawing.Point(2, 25);
+            this.Point2.Margin = new System.Windows.Forms.Padding(0);
             this.Point2.Name = "Point2";
             this.Point2.Size = new System.Drawing.Size(15, 16);
             this.Point2.TabIndex = 2;
@@ -66,7 +59,6 @@ namespace BezierCurve
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Point2);
-            this.Controls.Add(this.AddPointbutton);
             this.Controls.Add(this.Point);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -78,7 +70,6 @@ namespace BezierCurve
         #endregion
 
         private System.Windows.Forms.Button Point;
-        private System.Windows.Forms.Button AddPointbutton;
         private System.Windows.Forms.Button Point2;
     }
 }
